@@ -26,6 +26,7 @@
     <link href="css/responsive.css" rel="stylesheet" type="text/css" />
 
     <!-- font-awesome -->
+    <link href="css/fonts.css" rel="stylesheet" type="text/css" />
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 
     <!-- font-awesome -->
@@ -51,20 +52,25 @@
         <!-- logo -->
 
         <!-- nav -->
+        <!-- <div class="m"> -->
         <nav role="header-nav" class="navy">
-          <!-- <div class="m"></div> -->
           <ul>
             <li class="nav-active">
-              <a href="index.html" title="Work">Work</a>
+              <a href="index.html" title="Work">Work</a
+              ><i class="fa fa-angle-down"></i>
             </li>
-            <ul>
-              <li><a href="#">[Current Project]</a></li>
-              <li class="nav-active">
-                <a href="project-katie.html">Project Katie</a>
-              </li>
-              <li><a href="project-grant.html">Project Grant</a></li>
-              <li><a href="project-alexandria.html">Project Alexandria</a></li>
-            </ul>
+
+            <li class="works"><a href="#">[Current Project]</a></li>
+            <li class="works">
+              <a href="project-katie.html">Project Katie</a>
+            </li>
+            <li class="works">
+              <a href="project-grant.html">Project Grant</a>
+            </li>
+            <li class="works">
+              <a href="project-alexandria.html">Project Alexandria</a>
+            </li>
+
             <li><a href="about.html" title="About">About</a></li>
             <li><a href="team.html" title="Team">treeTEAM</a></li>
             <li><a href="contact.html" title="Contact">Contact</a></li>
@@ -78,7 +84,7 @@
     <!-- main -->
     <main role="main-home-wrapper" class="container">
       <div class="row">
-        <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
+        <section class="">
           <article role="pge-title-content">
             <header>
               <h2><span>TreeFrog</span> dreams come true</h2>
@@ -91,78 +97,51 @@
           </article>
         </section>
 
-        <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6 grid">
-          <figure class="effect-oscar">
+        <section class="work">
+          <figure>
             <img
               src="images/home-images/image-1.jpg"
               alt=""
               class="img-responsive"
             />
-            <figcaption>
-              <h2>Project:<span>Katie</span></h2>
-              <p>Wolfon and the MeekMeeks</p>
-              <a href="project-katie.html">View more</a>
-            </figcaption>
           </figure>
+          <article>
+            <h2>Project:<span>Katie</span></h2>
+            <p>Wolfon and the MeekMeeks</p>
+            <a href="project-katie.html">View more</a>
+          </article>
         </section>
 
         <div class="clearfix"></div>
 
-        <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6 grid">
-          <ul class="grid-lod effect-2" id="grid">
-            <li>
-              <figure class="effect-oscar">
-                <img
-                  src="images/home-images/image-2.jpg"
-                  alt=""
-                  class="img-responsive"
-                />
-                <figcaption>
-                  <h2>Sir<span> Grantelot</span></h2>
-                  <p>This is Sir Grantelot and his story comes a long way...</p>
-                  <a href="project-grant.html">View more</a>
-                </figcaption>
-              </figure>
-              <!-- <figure class="effect-oscar">
-                                <img src="images/home-images/image-1.png" alt="" class="img-responsive"/>
-                                <figcaption>
-                                    <h2>Miss<span> Wolfon</span></h2>
-							        <p>This is Miss Wolfon and her story comes a long way...</p>
-							        <a href="works-details.html">View more</a>
-                                </figcaption>
-                            </figure> -->
-            </li>
-
-            <!-- <li> -->
-            <!-- <figure class="effect-oscar">
-                                <img src="images/home-images/image-3.jpg" alt="" class="img-responsive"/>
-                                <figcaption>
-                                    <h2>Meek<span>Meeks</span></h2>
-                                    <p>These are MeekMeeks and their stories come a long way...</p>
-                                    <a href="works-details.html">View more</a>
-                                </figcaption>
-                            </figure> -->
-            <!-- </li> -->
-          </ul>
+        <section class="work">
+          <figure>
+            <img
+              src="images/home-images/image-2.jpg"
+              alt=""
+              class="img-responsive"
+            />
+          </figure>
+          <article>
+            <h2>Sir<span> Grantelot</span></h2>
+            <p>This is Sir Grantelot and his story comes a long way...</p>
+            <a href="project-grant.html">View more</a>
+          </article>
         </section>
 
-        <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6 grid">
-          <ul class="grid-lod effect-2" id="grid">
-            <li>
-              <figure class="effect-oscar">
-                <img
-                  src="images/home-images/image-3.jpg"
-                  alt=""
-                  class="img-responsive"
-                />
-                <figcaption>
-                  <h2>Project:<span>Alexandria</span></h2>
-                  <p>Tales of Alexandria</p>
-                  <a href="project-alexandria.html">View more</a>
-                </figcaption>
-              </figure>
-            </li>
-          </ul>
+        <section class="work">
+          <figure>
+            <img
+              src="images/home-images/image-3.jpg"
+              alt=""
+              class="img-responsive"
+            />
+          </figure>
+          <article>
+            <h2>Project:<span>Alexandria</span></h2>
+            <p>Tales of Alexandria</p>
+            <a href="project-alexandria.html">View more</a>
+          </article>
         </section>
 
         <div class="clearfix"></div>

@@ -234,6 +234,17 @@ header[role="header"] h1 > a {
   float: left;
 }
 
+/* header[role="header"] div.m {
+  background-color: rgba(255, 255, 255, 0.8);
+  position: fixed;
+  z-index: 60;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+} */
+
 header[role="header"] nav {
   padding-top: 20px;
   transition-delay: 0s;
@@ -246,7 +257,7 @@ header[role="header"] nav ul {
   display: none;
   position: fixed;
   z-index: 60;
-  text-align: center;
+  /* text-align: center; */
   width: 100%;
   height: 100%;
   top: 0;
@@ -256,24 +267,38 @@ header[role="header"] nav ul {
   padding: 0;
   margin: 0;
   padding-top: 199px;
+  padding-left: 40vw;
 }
 
 header[role="header"] nav ul > li {
   font-weight: 800;
   font-size: 42px;
   display: block;
+  line-height: 72px;
 }
 
 header[role="header"] nav ul > li > a {
-  display: block;
-  line-height: 72px;
+  display: inline-block;
   color: #404040;
+}
+
+header[role="header"] nav ul > li i {
+  padding-left: 15px;
+  font-size: 50px;
+  top: 5px;
+  position: relative;
 }
 
 header[role="header"] nav ul > li:hover a,
 header[role="header"] nav ul > li.nav-active a {
   text-decoration: none;
   color: #87c544;
+}
+header[role="header"] nav .works {
+  font-size: 30px;
+  font-weight: 600;
+  padding-left: 70px;
+  line-height: 50px;
 }
 
 header[role="header"] nav #menu-button {
@@ -283,6 +308,7 @@ header[role="header"] nav #menu-button {
   height: 19px;
   position: relative;
   z-index: 70;
+  /* margin: 40px 60px 0 0; */
 
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -397,6 +423,7 @@ main[role="main-inner-wrapper"] article[role="pge-title-content"] p {
   font-size: 20px;
   line-height: 30px;
   color: #454545;
+  padding-bottom: 50px;
 }
 
 main > h2 {
@@ -410,6 +437,43 @@ main > h2 {
   color: #343434;
   font-size: 36px;
   font-weight: 800;
+}
+
+main[role="main-home-wrapper"] section.work {
+  display: flex;
+}
+main[role="main-home-wrapper"] section.work figure {
+  width: 50%;
+  padding: 25px 0;
+}
+
+main[role="main-home-wrapper"] section.work article {
+  padding: 100px 0 0 80px;
+  max-width: 50%;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+main[role="main-home-wrapper"] section.work article h2 {
+  word-spacing: -0.15em;
+  webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+main[role="main-home-wrapper"] section.work article h2 span {
+  font-weight: 800;
+}
+
+main[role="main-home-wrapper"] section.work article p {
+  letter-spacing: 1px;
+  font-size: 16px;
+  line-height: 22px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
 }
 
 /*==================== FOOTER =====================*/
