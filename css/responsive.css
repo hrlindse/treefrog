@@ -87,6 +87,15 @@
   .comments-reply li section {
     width: 88%;
   }
+
+  /* team */
+
+  .past-works-button {
+    /* float: none; */
+  }
+
+  .past-works {
+  }
 }
 
 /* xs , mobile */
@@ -193,13 +202,6 @@
     padding-top: 20px;
     height: 100px;
     width: 100px;
-  }
-
-  section.team-content article {
-    padding: 2% 5%;
-    font-size: 18px;
-    line-height: 24px;
-    font-family: "proxima_nova_cn_rgregular";
   }
 
   article.contact-header[role="pge-title-content"] p a {
