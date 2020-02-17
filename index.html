@@ -33,10 +33,19 @@
     <link href="css/effects/set2.css" rel="stylesheet" type="text/css" />
     <link href="css/effects/normalize.css" rel="stylesheet" type="text/css" />
     <link href="css/effects/component.css" rel="stylesheet" type="text/css" />
+
+    <!-- load nav -->
+    <!-- <script src="js/nav.js" type="text/javascript"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script>
+      $(function() {
+        $("nav").load("includes/header.html");
+      });
+    </script> -->
   </head>
 
   <body>
-    <!-- header -->
+    <!-- header, loaded with jquery -->
     <header role="header">
       <div class="container">
         <!-- logo -->
@@ -50,27 +59,38 @@
           /></a>
         </h1>
         <!-- logo -->
-
         <!-- nav -->
-        <!-- <div class="m"> -->
         <nav role="header-nav" class="navy">
           <ul>
-            <li class="nav-active">
-              <a href="index.html" title="Work">Work</a
-              ><i class="fa fa-angle-down"></i>
-            </li>
-
-            <li class="works"><a href="#">[Current Project]</a></li>
-            <li class="works">
-              <a href="project-katie.html">Project Katie</a>
-            </li>
-            <li class="works">
-              <a href="project-grant.html">Project Grant</a>
-            </li>
-            <li class="works">
-              <a href="project-alexandria.html">Project Alexandria</a>
-            </li>
-
+            <div class="dropdown">
+              <li
+                class="nav-active dropdown-toggle"
+                id="dropdownMenuBotton"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <a href="index.html" title="Work">Work</a
+                ><i class="fa fa-angle-down"></i>
+              </li>
+              <div
+                class="dropdown-menu nav-dropdown"
+                aria-labelledby="dropdownMenuButton"
+              >
+                <li class="dropdown-item">
+                  <a href="index.html">All Works</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="project-katie.html">Project Katie</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="project-grant.html">Project Grant</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="project-alexandria.html">Project Alexandria</a>
+                </li>
+              </div>
+            </div>
             <li><a href="about.html" title="About">About</a></li>
             <li><a href="team.html" title="Team">treeTEAM</a></li>
             <li><a href="contact.html" title="Contact">Contact</a></li>
@@ -97,7 +117,7 @@
           </article>
         </section>
 
-        <section class="work">
+        <section class="work right-text">
           <figure>
             <a href="project-katie.html"
               ><img
@@ -106,16 +126,14 @@
                 class="img-responsive"
             /></a>
           </figure>
-          <article>
-            <h2>Project:<span>Katie</span></h2>
+          <article class="right-side">
+            <h2>Project: <span>Katie</span></h2>
             <p>Wolfon and the MeekMeeks</p>
             <a href="project-katie.html">View more</a>
           </article>
         </section>
 
-        <div class="clearfix"></div>
-
-        <section class="work">
+        <section class="work left-text">
           <figure>
             <a href="project-grant.html"
               ><img
@@ -131,7 +149,7 @@
           </article>
         </section>
 
-        <section class="work">
+        <section class="work right-text">
           <figure>
             <a href="project-alexandria.html">
               <img
@@ -141,7 +159,7 @@
             /></a>
           </figure>
           <article>
-            <h2>Project:<span>Alexandria</span></h2>
+            <h2>Project: <span>Alexandria</span></h2>
             <p>Tales of Alexandria</p>
             <a href="project-alexandria.html">View more</a>
           </article>

@@ -33,10 +33,7 @@ $(document).ready(function() {
           }
         });
 
-      cssmenu
-        .find("li ul")
-        .parent()
-        .addClass("has-sub");
+      cssmenu.find("nav").addClass("has-sub");
 
       multiTg = function() {
         cssmenu
@@ -78,6 +75,14 @@ $(document).ready(function() {
   $("#menu-button").click(function() {
     $(this).toggleClass("open");
   });
+
+  // TODO: add function to change menu arrow on click
+
+  //TODO menu dropdown animation
+
+  // TODO add function that highlights menu item of current page
+  // dropdown open if on one of those pages
+  //put works pages into folders and update links
 
   new AnimOnScroll(document.getElementById("grid"), {
     minDuration: 0.4,
