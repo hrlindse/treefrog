@@ -175,19 +175,19 @@
     display: none;
   }
 
-  main[role="main-home-wrapper"] section.work {
+  main[role="main-home-wrapper"] .works > section.work {
     display: block;
     padding: 30px 0;
   }
 
-  main[role="main-home-wrapper"] section.work figure {
+  main[role="main-home-wrapper"] .works > section.work figure {
     padding: 0 0 15px 0;
     margin: 0 auto;
     width: 80%;
     float: none;
     position: initial;
   }
-  main[role="main-home-wrapper"] section.work article {
+  main[role="main-home-wrapper"] .works > section.work article {
     padding: 0;
     margin: 0 auto;
     width: 50%;

@@ -484,20 +484,20 @@ main[role="main-home-wrapper"] section.work figure {
   width: 50%;
 }
 
-main[role="main-home-wrapper"] .works:nth-child(odd):not(:first-child) figure {
+main[role="main-home-wrapper"] .works > section:nth-child(odd) figure {
   padding: 25px 25px 25px 0;
 }
-main[role="main-home-wrapper"] .works:nth-child(odd):not(:first-child) article {
+main[role="main-home-wrapper"] .works > section:nth-child(odd) article {
   padding: 100px 0 0 80px;
 }
 
-main[role="main-home-wrapper"] .works:nth-child(even) figure {
+main[role="main-home-wrapper"] .works > section:nth-child(even) figure {
   padding: 25px 0 25px 25px;
   float: right;
   position: relative;
   left: 50%;
 }
-main[role="main-home-wrapper"] .works:nth-child(even) article {
+main[role="main-home-wrapper"] .works > section:nth-child(even) article {
   padding: 100px 80px 0 0;
   position: absolute;
 }
