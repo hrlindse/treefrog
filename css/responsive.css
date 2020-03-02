@@ -11,6 +11,10 @@
   header[role="header"] {
     padding: 8% 0;
   }
+  header[role="header"] nav ul {
+    padding-top: 18vh;
+    padding-left: 30vw;
+  }
 
   /* header[role="header"] nav ul{ padding-top:10%} */
   main[role="main-home-wrapper"] article[role="pge-title-content"],
@@ -49,7 +53,7 @@
   }
 
   /* works page styles */
-  main[role="main-home-wrapper"] section.right-text article {
+  main[role="main-home-wrapper"] .works:nth-child(2) article {
     padding: 50px 0 0 30px;
   }
 
@@ -104,13 +108,26 @@
     padding: 8% 0;
   }
 
+  header[role="header"] nav ul {
+    padding-top: 17vh;
+    padding-left: 15vw;
+  }
+
   /* header[role="header"] nav ul{ padding-top:10%} */
-  header[role="header"] nav ul > li {
+  /* header[role="header"] nav ul li {
     font-size: 30px;
   }
 
+  header[role="header"] nav ul li i {
+    font-size: 38px;
+  } */
+
   header[role="header"] nav ul > li > a {
     line-height: 55px;
+  }
+
+  header[role="header"] nav .nav-dropdown li {
+    padding-left: 0;
   }
 
   /* universal styles */

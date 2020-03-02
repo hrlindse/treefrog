@@ -11,6 +11,10 @@ $(document).ready(function() {
       );
 
     return this.each(function() {
+      cssmenu
+        .find("li ul")
+        .parent()
+        .addClass("has-sub");
       cssmenu.prepend(
         '<div id="menu-button"><span></span><span></span><span></span>' +
           settings.title +
@@ -33,7 +37,7 @@ $(document).ready(function() {
           }
         });
 
-      cssmenu.find("nav").addClass("has-sub");
+      cssmenu.find("ul").addClass("has-sub");
 
       multiTg = function() {
         cssmenu
@@ -76,11 +80,40 @@ $(document).ready(function() {
     $(this).toggleClass("open");
   });
 
+  //animate arrow
+  function turnArrow() {
+    $("#works-arrow").toggleClass("left-facing");
+    $("#nav-dropdown").toggleClass("open-dropdown");
+  }
+  $("#dropdownMenuBotton").click(function() {
+    $("#works-arrow").toggleClass("left-facing");
+    $("#nav-dropdown").toggleClass("open-dropdown");
+  });
+
   // TODO: add function to change menu arrow on click
 
   //TODO menu dropdown animation
 
-  // TODO add function that highlights menu item of current page
+  // highlights menu item of current page class = nav-active
+  $(".navy li").each(function() {
+    //get current page name
+    var currentpageurl = document.location.href;
+    var currentpagefilename = currentpageurl.split("/").pop();
+    var currentpage = currentpagefilename.split(".").shift();
+    if (
+      document.getElementById(currentpage).classList.contains("dropdown-item")
+    ) {
+      $("#dropdownMenuBotton").addClass("nav-active");
+      document
+        .getElementById("dropdownMenuBotton")
+        .setAttribute("aria-expanded", true);
+      turnArrow();
+    }
+    currentpage = "#" + currentpage;
+    //add active class
+    $(currentpage).addClass("nav-active");
+    // work dropdown open if work page is active
+  });
   // dropdown open if on one of those pages
   //put works pages into folders and update links
 

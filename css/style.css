@@ -184,6 +184,10 @@ q:after {
   height: 0;
 }
 
+.no-style {
+  all: inherit;
+}
+
 a {
   text-decoration: none;
   outline: none;
@@ -263,10 +267,10 @@ header[role="header"] nav ul {
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 0;
   margin: 0;
-  padding-top: 199px;
+  padding-top: 18vh;
   padding-left: 40vw;
 }
 
@@ -278,11 +282,28 @@ header[role="header"] nav ul li {
 }
 
 header[role="header"] nav .nav-dropdown {
-  position: relative;
   background-color: transparent;
   border: none;
   box-shadow: none;
   float: none;
+  padding-top: 0px;
+  -webkit-transition: max-height 1s ease-out;
+  transition: max-height 1s ease-out;
+  opacity: 0;
+  display: block;
+  width: 100%;
+  max-height: 0;
+  border: none;
+  overflow: hidden;
+}
+
+#nav-dropdown.open-dropdown {
+  position: relative;
+  opacity: 1;
+
+  width: 100%;
+  max-height: 1000px;
+  border: none;
 }
 
 header[role="header"] nav ul li a {
@@ -293,8 +314,9 @@ header[role="header"] nav ul li a {
 header[role="header"] nav ul li i {
   padding-left: 15px;
   font-size: 50px;
-  top: 5px;
+  top: 12px;
   position: relative;
+  transition: transform 0.4s;
 }
 
 header[role="header"] nav ul li:hover a,
@@ -392,6 +414,10 @@ header[role="header"] nav #menu-button.open span:nth-child(3) {
   transform: rotate(-135deg);
 }
 
+.left-facing {
+  transform: rotate(-90deg);
+}
+
 /*==================== MAIN =====================*/
 
 main[role="main-home-wrapper"],
@@ -458,20 +484,20 @@ main[role="main-home-wrapper"] section.work figure {
   width: 50%;
 }
 
-main[role="main-home-wrapper"] section.right-text figure {
+main[role="main-home-wrapper"] .works:nth-child(odd):not(:first-child) figure {
   padding: 25px 25px 25px 0;
 }
-main[role="main-home-wrapper"] section.right-text article {
+main[role="main-home-wrapper"] .works:nth-child(odd):not(:first-child) article {
   padding: 100px 0 0 80px;
 }
 
-main[role="main-home-wrapper"] section.left-text figure {
+main[role="main-home-wrapper"] .works:nth-child(even) figure {
   padding: 25px 0 25px 25px;
   float: right;
   position: relative;
   left: 50%;
 }
-main[role="main-home-wrapper"] section.left-text article {
+main[role="main-home-wrapper"] .works:nth-child(even) article {
   padding: 100px 80px 0 0;
   position: absolute;
 }
