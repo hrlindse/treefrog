@@ -127,13 +127,7 @@
 
     <!-- header and footer includes -->
     <script type="text/javascript">
-      // $.get(
-      //   "includes/header.html",
-      //   function(response) {
-      //     $("#header").html(response);
-      //   },
-      //   { async: false }
-      // );
+      // header request is synchronus so that it exists before the cssmenu (nav.js) runs
       $.ajax({
         type: "GET",
         url: "includes/header.html",
