@@ -37,9 +37,14 @@
     <!-- jQuery for header and footer includes -->
     <script src="js/jquery.min.js" type="text/javascript"></script>
     <script type="text/javascript">
-      $.get("includes/header.html", function(response) {
-        $("#header").html(response);
-      });
+      $.get(
+        "includes/header.html",
+        function(response) {
+          $("#header").html(response);
+        },
+        success,
+        false
+      );
     </script>
     <script type="text/javascript">
       $.get("includes/footer.html", function(response) {
