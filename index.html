@@ -127,21 +127,21 @@
 
     <!-- header and footer includes -->
     <script type="text/javascript">
-      $.get(
-        "includes/header.html",
-        function(response) {
-          $("#header").html(response);
-        },
-        { async: false }
-      );
-      // $.ajax({
-      //   type: "GET",
-      //   url: "includes/header.html",
-      //   success: function(response) {
+      // $.get(
+      //   "includes/header.html",
+      //   function(response) {
       //     $("#header").html(response);
       //   },
-      //   async: false
-      // });
+      //   { async: false }
+      // );
+      $.ajax({
+        type: "GET",
+        url: "includes/header.html",
+        success: function(response) {
+          $("#header").html(response);
+        },
+        async: false
+      });
     </script>
     <script type="text/javascript">
       $.get("includes/footer.html", function(response) {
