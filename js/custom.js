@@ -42,7 +42,7 @@ $(document).ready(function () {
   console.log("inside getteam");
   var year = $("#teamcontainer").data("year");
   console.log("year is: " + year);
-  $.getJSON("../includes/team.json", function (teamData) {
+  $.getJSON("includes/team.json", function (teamData) {
     console.log("we got json: " + teamData);
     team = teamData[year];
     console.log("we got the year: " + team);
