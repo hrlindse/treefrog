@@ -84,7 +84,7 @@
                 alt=""
                 class="img-responsive"
               />
-              <h3 style="color: #87C544">The Alien Comic</h3>
+              <h3 style="color: #87c544;">The Alien Comic</h3>
             </li>
             <li>
               <img
@@ -92,7 +92,7 @@
                 alt=""
                 class="img-responsive"
               />
-              <h3 style="color: #87C544">Underwater Alien: Basisi</h3>
+              <h3 style="color: #87c544;">Underwater Alien: Basisi</h3>
             </li>
             <li>
               <img
@@ -100,12 +100,13 @@
                 alt=""
                 class="img-responsive"
               />
-              <h3 style="color: #87C544">The Zombie Comic</h3>
+              <h3 style="color: #87c544;">The Zombie Comic</h3>
             </li>
           </ul>
         </div>
         <h2>The Team</h2>
         <br />
+        <div id="teamcontainer" data-year="2020"></div>
       </div>
       <!-- work details -->
     </main>
@@ -124,14 +125,14 @@
       $.ajax({
         type: "GET",
         url: "includes/header.html",
-        success: function(response) {
+        success: function (response) {
           $("#header").html(response);
         },
-        async: false
+        async: false,
       });
     </script>
     <script type="text/javascript">
-      $.get("includes/footer.html", function(response) {
+      $.get("includes/footer.html", function (response) {
         $("#footer").html(response);
       });
     </script>

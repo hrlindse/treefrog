@@ -16,7 +16,7 @@
 */
 
 @import url(
-  https://fonts.googleapis.com/css?family=Open+Sans:400,
+  https://fonts.googleapis.com/css?family=Open + Sans:400,
   300,
   300italic,
   400italic,
@@ -734,60 +734,62 @@ article.past-works div > a {
   font-weight: 800; */
 }
 
-section.team-content {
+#teamcontainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.team-content {
   margin-bottom: 29px;
+  min-width: 300px;
+  width: 31%;
+  /* padding: 0 15px; */
 }
 
-section.team-content figure {
-  overflow: hidden;
-  position: relative;
-  background-color: rgba(255, 255, 255, 0.4);
-  cursor: pointer;
+/* .team-content:hover img {
+  opacity: 0.5;
 }
-
-section.team-content figure .post-date {
-  text-align: center;
-  color: #fff;
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 18px;
-  text-transform: uppercase;
-  display: block;
+.team-content:hover .details {
   background-color: #87c544;
-  width: 130px;
-  height: 130px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  padding-top: 41px;
-  z-index: 50;
-}
-
-section.team-content figure .post-date span {
-  font-size: 50px;
-  line-height: 35px;
-  display: block;
-}
-
-section.team-content article {
-  height: 120px;
-  font-size: 15px;
-  line-height: 30px;
   color: #fff;
-  font-weight: 700;
-  color: #343434;
-  padding-left: 10px;
-  padding-top: 20px;
+} */
+
+.team-content .details {
+  padding: 20px 10px 30px;
 }
 
-section.team-content article .name {
+.team-content .name {
   font-size: 20px;
   font-weight: 800;
 }
 
-section.team-content:hover figure img {
-  opacity: 0.5;
+.team-content .title {
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 700;
 }
+
+.team-content .link {
+  background-color: #87c544;
+  width: 100px;
+  text-align: center;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+.team-content .link a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* .team-content:hover .link {
+  background-color: #fff;
+}
+.team-content:hover .link a {
+  color: #353535;
+} */
 
 /*==================== CONTACT =====================*/
 

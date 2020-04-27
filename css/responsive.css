@@ -4,6 +4,9 @@
   .comments-reply li section {
     width: 88%;
   }
+  .team-content {
+    width: 48%;
+  }
 }
 
 /* sm */
@@ -94,11 +97,8 @@
 
   /* team */
 
-  .past-works-button {
-    /* float: none; */
-  }
-
-  .past-works {
+  .team-content {
+    width: 48%;
   }
 }
 
@@ -277,6 +277,18 @@
 
   .team-header {
     padding-bottom: 20px;
+  }
+
+  .team-content {
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+  }
+  .team-content img {
+    width: 50%;
+  }
+  .team-content .details {
+    padding: 10px 0px 0px 30px;
   }
 
   .team-details .enter-content {

@@ -4,135 +4,220 @@
       "name": "Mathew A. Powers",
       "img": "team-2.png",
       "title": "Co-Founder",
-      "bio": ""
+      "bio": "",
+      "link": "https://soic.iupui.edu/people/mathew-powers/"
     },
     {
       "name": "Todd Shelton",
       "img": "team-1.png",
       "title": "Co-Founder",
-      "bio": ""
+      "bio": "",
+      "link": "https://soic.iupui.edu/people/todd-shelton/"
     },
     {
       "name": "Devon Pulley",
       "img": "team-4.png",
       "title": "Videographer & Social Media Manager",
-      "bio": ""
+      "bio": "",
+      "link": "https://editsbydevon.com/"
     },
     {
       "name": "Matthew Williams",
       "img": "team-6.png",
       "title": "Music & Sound Designer",
-      "bio": ""
+      "bio": "",
+      "link": "https://www.youtube.com/channel/UCCZybhCuiiULlhcSiNIHnGA/feed"
     },
     {
       "name": "Mujtaba Murtaza",
-      "img": "team-.png",
+      "img": "team-3.png",
       "title": "Web Developer",
-      "bio": ""
+      "bio": "",
+      "link": "http://mujmur.com/"
     },
     {
-      "name": "",
-      "img": "team-.png",
-      "title": "",
-      "bio": ""
+      "name": "Drennen Dooms",
+      "img": "team-8.png",
+      "title": "Game Programmer & Designer",
+      "bio": "",
+      "link": "http://dragonmirth.com/"
     },
     {
-      "name": "",
-      "img": "team-.png",
-      "title": "",
-      "bio": ""
+      "name": "Ryan Conrad",
+      "img": "team-12.png",
+      "title": "3D Environmental Artist",
+      "bio": "",
+      "link": "https://rc82146.wixsite.com/ryanconrad"
     },
     {
-      "name": "",
-      "img": "team-.png",
-      "title": "",
-      "bio": ""
+      "name": "Tori Butcher",
+      "img": "team-5.png",
+      "title": "2D Artist/2D Animator",
+      "bio": "",
+      "link": "https://tbutcher.carbonmade.com/"
     },
     {
-      "name": "",
-      "img": "team-.png",
-      "title": "",
-      "bio": ""
+      "name": "Devon Roe",
+      "img": "team-10.png",
+      "title": "Game Designer",
+      "bio": "",
+      "link": "https://devon24hunter.wixsite.com/website"
     },
     {
-      "name": "",
-      "img": "team-.png",
-      "title": "",
-      "bio": ""
+      "name": "Michael McCord",
+      "img": "team-14.png",
+      "title": "Artist",
+      "bio": "",
+      "link": "https://dragonmon.wixsite.com/portfolio"
     },
     {
-      "name": "",
-      "img": "team-.png",
-      "title": "",
-      "bio": ""
+      "name": "Dan Kallman",
+      "img": "team-11.png",
+      "title": "Game Programmer",
+      "bio": "",
+      "link": "https://www.linkedin.com/in/dan-kallman-b9265a15b/"
     },
     {
-      "name": "",
-      "img": "team-.png",
-      "title": "",
-      "bio": ""
+      "name": "Brian Dugan",
+      "img": "team-7.png",
+      "title": "Game Programmer",
+      "bio": "",
+      "link": "https://www.linkedin.com/in/brian-dugan-444420129/"
     },
     {
-      "name": "",
-      "img": "team-.png",
-      "title": "",
-      "bio": ""
+      "name": "Curtis Hagan",
+      "img": "team-16.png",
+      "title": "Game Programmer/Designer",
+      "bio": "",
+      "link": "https://twitter.com/ChaganCreates"
     },
     {
-      "name": "",
-      "img": "team-.png",
-      "title": "",
-      "bio": ""
+      "name": "Ian Yockey",
+      "img": "team-13.png",
+      "title": "3D Creature and Environmental Artist",
+      "bio": "",
+      "link": "https://iyockey.wixsite.com/mysite"
     },
     {
-      "name": "",
-      "img": "team-.png",
-      "title": "",
-      "bio": ""
+      "name": "Robert Burita",
+      "img": "team-9.png",
+      "title": "Game Designer",
+      "bio": "",
+      "link": "https://www.linkedin.com/in/robert-burita-490624160/"
     },
     {
-      "name": "",
-      "img": "team-.png",
-      "title": "",
-      "bio": ""
+      "name": "Gabriela Jimenez",
+      "img": "team-18.png",
+      "title": "2D Artist/2D Animator",
+      "bio": "",
+      "link": "https://www.artstation.com/stingy_narwhal"
     },
     {
-      "name": "",
-      "img": "team-.png",
-      "title": "",
-      "bio": ""
+      "name": "Gabrielle Bayani",
+      "img": "team-15.png",
+      "title": "2D Artist",
+      "bio": "",
+      "link": "https://twitter.com/starafires"
     },
     {
-      "name": "",
-      "img": "team-.png",
-      "title": "",
-      "bio": ""
+      "name": "Alcey Childers",
+      "img": "team-19.png",
+      "title": "2D & 3D Artist",
+      "bio": "",
+      "link": "https://alceychilders.wixsite.com/website"
     },
     {
-      "name": "",
-      "img": "team-.png",
-      "title": "",
-      "bio": ""
+      "name": "Michael Balkevicius",
+      "img": "team-20.png",
+      "title": "Game Developer/Designer",
+      "bio": "",
+      "link": "https://www.linkedin.com/in/michael-balkevicius/"
     },
     {
-      "name": "",
-      "img": "team-.png",
-      "title": "",
-      "bio": ""
+      "name": "Andrew Bush",
+      "img": "team-17.png",
+      "title": "3D Artist/3D Team Leader",
+      "bio": "",
+      "link": "https://www.andrewbush.design/"
     },
     {
-      "name": "",
-      "img": "team-.png",
-      "title": "",
-      "bio": ""
+      "name": "Matthew Tremper",
+      "img": "team-21.png",
+      "title": "Assistant Editor",
+      "bio": "",
+      "link": "https://www.behance.net/gallery/78034945/N299"
     }
   ],
   "2020": [
     {
+      "name": "Todd Shelton",
+      "img": "todd-shelton.jpg",
+      "title": "",
+      "bio": "",
+      "link": ""
+    },
+    {
+      "name": "Nicole Selby",
+      "img": "placeholder.jpg",
+      "title": "",
+      "bio": "Nicole Selby is an independent illustrator, ranging from characters to creatures, and she works primarily in 2D; however, she has also been developing her 3D art skills to take her creations into a 3D realm.",
+      "link": ""
+    },
+    {
+      "name": "Mujtaba Murtaza",
+      "img": "mujtaba-murtaza.jpg",
+      "title": "",
+      "bio": "Mujtaba Murtaza is a full-stack developer with strong front-end development skills. Mujtaba's designs are derived by the current web trends and is passionate in learning latest frameworks and advance in the field of web design and development.",
+      "link": "https://mujtmurt.github.io/"
+    },
+    {
+      "name": "Matthew Kruze Bio",
+      "img": "matthew-kruze.jpg",
+      "title": "",
+      "bio": "Matthew Kruze is a game designer and developer and has been for most of his life. From creating homebrews for TTRPG systems to creating independent game projects, Matthew has been bit by the game-making bug. Some of his favorite video games include Hollow Knight, Night in the Woods and The Witcher 3: Wild Hunt, and some of his favorite tabletop games include Fiasco, Savage Worlds, Mysterium and Root. He wants to thank you so much for having interest in this game he has designed, and thank everyone else on the team for their continued hard work and dedication. Also, science still isn't able to determine what Matthew Kruze is, but are about 80% certain that he is a carbon-based life-form.",
+      "link": ""
+    },
+    {
+      "name": "Lauren \"Chai\" Lewis",
+      "img": "lauren-lewis.jpg",
+      "title": "",
+      "bio": "Lauren \"Chai\" Lewis is a multimedia 2D artist and the independent developer behind the upcoming comic\"Spooks!\" Her love for storytelling and art can be traced back to early childhood when she would make up her own characters such as the sly elf catcher and the speedy superhero Wonder-Whirl. Lauren plans to go into the animation industry as a storyboard artist while also doing freelance work as a 2D artist and continuing her comic series.",
+      "link": ""
+    },
+    {
+      "name": "Josh Watson",
+      "img": "josh-watson.jpg",
+      "title": "",
+      "bio": "Josh Watson has been programming video games since 2017. He enjoys problem-solving and bringing his imagination to life. Josh hopes to start his own indie company one day.",
+      "link": "http://pages.iu.edu/~jbwatson/final_project/index.html"
+    },
+    {
       "name": "",
       "img": "",
       "title": "",
-      "bio": ""
+      "bio": "",
+      "link": ""
+    },
+    {
+      "name": "",
+      "img": "",
+      "title": "",
+      "bio": "",
+      "link": ""
+    },
+    {
+      "name": "",
+      "img": "",
+      "title": "",
+      "bio": "",
+      "link": ""
+    },
+    {
+      "name": "",
+      "img": "",
+      "title": "",
+      "bio": "",
+      "link": ""
     }
   ]
 }

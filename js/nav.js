@@ -1,20 +1,17 @@
-$(document).ready(function() {
-  $.fn.menumaker = function(options) {
+$(document).ready(function () {
+  $.fn.menumaker = function (options) {
     var cssmenu = $(this),
       settings = $.extend(
         {
           title: "Menu",
           format: "dropdown",
-          sticky: false
+          sticky: false,
         },
         options
       );
 
-    return this.each(function() {
-      cssmenu
-        .find("li ul")
-        .parent()
-        .addClass("has-sub");
+    return this.each(function () {
+      cssmenu.find("li ul").parent().addClass("has-sub");
       cssmenu.prepend(
         '<div id="menu-button"><span></span><span></span><span></span>' +
           settings.title +
@@ -22,7 +19,7 @@ $(document).ready(function() {
       );
       $(this)
         .find("#menu-button")
-        .on("click", function() {
+        .on("click", function () {
           $(this).toggleClass("menu-opened");
           var mainmenu = $(this).next("ul");
 
@@ -39,28 +36,18 @@ $(document).ready(function() {
 
       cssmenu.find("ul").addClass("has-sub");
 
-      multiTg = function() {
+      multiTg = function () {
         cssmenu
           .find(".has-sub")
           .prepend('<span class="submenu-button"></span>');
 
-        cssmenu.find(".submenu-button").on("click", function() {
+        cssmenu.find(".submenu-button").on("click", function () {
           $(this).toggleClass("submenu-opened");
 
-          if (
-            $(this)
-              .siblings("ul")
-              .hasClass("open")
-          ) {
-            $(this)
-              .siblings("ul")
-              .removeClass("open")
-              .slideUp();
+          if ($(this).siblings("ul").hasClass("open")) {
+            $(this).siblings("ul").removeClass("open").slideUp();
           } else {
-            $(this)
-              .siblings("ul")
-              .addClass("open")
-              .slideDown();
+            $(this).siblings("ul").addClass("open").slideDown();
           }
         });
       };
@@ -73,10 +60,10 @@ $(document).ready(function() {
   $(".navy").menumaker({
     title: "Navigation",
 
-    format: "multitoggle"
+    format: "multitoggle",
   });
 
-  $("#menu-button").click(function() {
+  $("#menu-button").click(function () {
     $(this).toggleClass("open");
   });
 
@@ -85,7 +72,7 @@ $(document).ready(function() {
     $("#works-arrow").toggleClass("left-facing");
     $("#nav-dropdown").toggleClass("open-dropdown");
   }
-  $("#dropdownMenuBotton").click(function() {
+  $("#dropdownMenuBotton").click(function () {
     $("#works-arrow").toggleClass("left-facing");
     $("#nav-dropdown").toggleClass("open-dropdown");
   });
@@ -95,7 +82,7 @@ $(document).ready(function() {
   //TODO menu dropdown animation
 
   // highlights menu item of current page class = nav-active
-  $(".navy li").each(function() {
+  $(".navy li").each(function () {
     //get current page name
     var currentpageurl = document.location.href;
     var currentpagefilename = currentpageurl.split("/").pop();
@@ -117,11 +104,11 @@ $(document).ready(function() {
   // dropdown open if on one of those pages
   //put works pages into folders and update links
 
-  new AnimOnScroll(document.getElementById("grid"), {
-    minDuration: 0.4,
+  // new AnimOnScroll(document.getElementById("grid"), {
+  //   minDuration: 0.4,
 
-    maxDuration: 0.7,
+  //   maxDuration: 0.7,
 
-    viewportFactor: 0.2
-  });
+  //   viewportFactor: 0.2
+  // });
 });
