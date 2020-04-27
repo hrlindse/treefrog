@@ -97,6 +97,9 @@
 
   /* team */
 
+  .team-header h2 span {
+    font-size: 60px !important;
+  }
   .team-content {
     width: 48%;
   }

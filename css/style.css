@@ -716,9 +716,10 @@ article.past-works > a {
 article.past-works div {
   margin-top: 30px;
   height: 400px;
-  padding-top: 20%;
+  padding: 20% 20px 0px;
   color: white;
   font-size: 20px;
+  text-align: center;
 }
 article.past-works div h2 {
   font-size: 46px;
