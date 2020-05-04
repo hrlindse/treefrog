@@ -183,6 +183,49 @@
       "title": "",
       "bio": "Josh Watson has been programming video games since 2017. He enjoys problem-solving and bringing his imagination to life. Josh hopes to start his own indie company one day.",
       "link": "http://pages.iu.edu/~jbwatson/final_project/index.html"
+    },
+    {
+      "name": "Nicole Selby",
+      "img": "",
+      "title": "",
+      "bio": "Nicole Selby is an independent illustrator, ranging from characters to creatures, and she works primarily in 2D; however, she has also been developing her 3D art skills to take her creations into a 3D realm.",
+      "link": ""
+    },
+    {
+      "name": "Sara Lansdell",
+      "img": "",
+      "title": "",
+      "bio": "Sara Lansdell is a 2D artist with a focus in illustration and concept art. She has a special love for fantasy, science fiction, and plant life, and loves to draw both characters and scenery. Growing up with traditional art mediums like graphite, charcoal, pastel, and ink, she discovered digital art in her senior year of high school, and has loved painting and drawing in Photoshop ever since.",
+      "link": "artstation.com/nohsara"
+    },
+    {
+      "name": "Jonathan Zeek",
+      "img": "",
+      "title": "",
+      "bio": "Jonathan Zeek is an application programmer specializing in client side programming. He thoroughly enjoys playing games and has competed in local Heroclix tournaments. Jonathan has grown up playing video games and hopes to one day start his own Indy company.",
+      "link": ""
+    },
+    {
+      "name": "Joel Holland",
+      "img": "",
+      "title": "",
+      "bio": "Joel Holland has aspired to be a game designer for most of his life. From bad variants to Bridge deck games, to sketchbooks full of RPG ideas, to GameMaker mini-projects, to Unreal Engine levels, he has always been fascinated by the process of making games.
+      Joel is a 3D artist and level designer who hopes to one day run his own independent design studio.",
+      "link": ""
+    },
+    {
+      "name": "Drennen Dooms",
+      "img": "",
+      "title": "",
+      "bio": "Drennen Dooms is a graduate Game Designer. His work revolves around gameplay programming for 3D environments, and has a lot of experience in Augmented Reality applications.",
+      "link": "drennendooms.com"
+    },
+    {
+      "name": "Brandon Winkler",
+      "img": "",
+      "title": "Brandon Winkler  is a game designer, level designer, and project manager. He has two major projects under his belt; Brittle and Hammy Farming, both available on Itch.io for free. Treefrog comes as his third major project and he couldn't be happier to be a part of the team.",
+      "bio": "",
+      "link": "brandonwinkler92.wixsite.com/brandonwinkler"
     }
   ]
 }
